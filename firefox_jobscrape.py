@@ -45,6 +45,9 @@ def search_specific(driver, type_of_job, location):
 def reach_specific(driver, glassdoor_data): 
     driver.get(glassdoor_data)
 
+# kommentar
+# kommentar
+
 def get_job_on_page(driver, job_vector): 
     '''
     for i in range(1,number_pages):
