@@ -73,6 +73,8 @@ def col_nbr(lst):
     return maxLength
 
 
+# test11
+
 # FUNKTION SOM SKAPAR PANDAS DATAFRAME
 def create_dataframe(number_of_cols, job_vector): 
     df_jobb = pd.DataFrame
