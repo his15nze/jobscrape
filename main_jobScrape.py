@@ -32,7 +32,8 @@ specific_location = 'sweden'
 
 # Hämtar sidan glassdoor 
 f_scrape.get_glassdoor(driver, glassdoor, email, password)
-# time.sleep(2)
+time.sleep(2)
+
 # Söker efter jobb & plats
 f_scrape.reach_specific(driver, glassdoor_data)
 #Hämta job-annonser 
@@ -46,6 +47,11 @@ print(job_vector)
 
 #Skapar pandas-DataFrame 
 df_jobb = f_scrape.create_dataframe(number_cols, job_vector)
+
+
+print(df_jobb)
+
+driver.quit()
 
 """
 nex_el = driver.find_element_by_class_name('next')

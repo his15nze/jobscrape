@@ -22,8 +22,6 @@ from requests.exceptions import RequestException
 from contextlib import closing
 from bs4 import BeautifulSoup
 
-from Sortera_data import sortera
-
 # GLASSDOOR
 def get_glassdoor(driver, html, email, password): 
 
@@ -47,6 +45,9 @@ def reach_specific(driver, glassdoor_data):
 
 # kommentar
 # kommentar
+
+# def loop_threw_page(driver):
+    
 
 def get_job_on_page(driver, job_vector): 
     '''
